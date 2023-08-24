@@ -60,7 +60,7 @@ def question_2():
 	q2_scr.title("Question 2")
 	  
 	# Lable
-	Label(q2_scr, text="Question 1", fg="Green", bg="Black", font=("Times new roman", 20)).grid(row=0,sticky=N,pady=5)
+	Label(q2_scr, text="Question 2", fg="Green", bg="Black", font=("Times new roman", 20)).grid(row=0,sticky=N,pady=5)
 	Label(q2_scr, text="Name the Largest organ in the human body.", fg="Green", bg="Black", font=("Times new roman", 20)).grid(row=1,sticky=N,pady=5)
 	Label(q2_scr, text="brain", fg="red", bg="Black", font=("Times new roman", 15)).grid(row=2,sticky=W, pady=5)  
 	Label(q2_scr, text="lungs", fg="red", bg="Black", font=("Times new roman", 15)).grid(row=3,sticky=W, pady=5)  
